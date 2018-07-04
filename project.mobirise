@@ -142,7 +142,7 @@
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Hubungi Kami</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-secondary-outline\" href=\"https://api.whatsapp.com/send?phone=6282137407720\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Hubungi Kami</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-7",
           "_styles": {
