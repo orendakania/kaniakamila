@@ -1,12 +1,15 @@
 {
   "settings": {
-    "name": "Kania Bkery",
+    "name": "Kania Bakery",
     "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
       "styling": {},
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#e24141",
+        "#e71c1c"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.10",
@@ -23,7 +26,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Kania Bakery",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -36,21 +39,21 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": false,
+            "showButtons": true,
             "inverse": false,
             "imageSize": "17",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#fff",
             "overlayOpacity": 0.5
           },
@@ -75,19 +78,30 @@
               "size": 0
             }
           },
-          "title": "Kania Bakery",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "title": "<b>Kania Bakery</b>",
+          "text": "<p>Kami adalah usaha yang bergerak di bidang Bakery dan Kulinary yang telah 11 tahun berdiri. Service terbaik demi kepuasan pelanggan serta kemudahan menjadi Motto kami dalam menjalankan usaha. Percayakan kebutuhan Bakery dan Kulinary anda pada kami.</p><p><br></p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Hubungi Kami</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"https://api.whatsapp.com/send?phone=6282137407720\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>Hubungi Kami</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-d",
           "_styles": {
             ".lead P": {
-              "color": "#000000"
+              "color": "#e24141"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            "SPAN": {
+              "font-family": "'Noto Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Noto+Sans:400,700"
+            },
+            ".mbr-section-title B": {
+              "color": "#e71c1c"
             }
           }
         },
@@ -136,90 +150,32 @@
               "size": 0
             }
           },
-          "title": "Krumpul Kania Bakery",
-          "text": "<p>Roti Krumpul 3 rasa dengan harga terjangkau. Hubungi kami untuk informasi lebih lanjut</p>",
+          "title": "<b>Krumpul Kania Bakery</b>",
+          "text": "<p>Roti Krumpul 3 rasa dengan harga terjangkau. Hubungi kami untuk informasi lebih lanjut</p><p><b>FREE DELIVERY ( S &amp; K )</b></p>",
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
           "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-secondary-outline\" href=\"https://api.whatsapp.com/send?phone=6282137407720\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Hubungi Kami</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-secondary-outline\" href=\"https://api.whatsapp.com/send?phone=6282137407720\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-mobile mbr-iconfont mbr-iconfont-btn\"></span>Hubungi Kami</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-7",
           "_styles": {
             ".lead P": {
-              "color": "#fff8e0"
+              "color": "#e24141"
             },
             ".btn": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".mbr-section-title B": {
+              "color": "#fbf2be"
             }
           }
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": "23",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fbf2be",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#fff",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/krumpul-final-harga-2-582x418.png",
-              "link": "",
-              "alt": "",
-              "title": ""
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Krumpul Kania Bakery",
-          "text": "<p>Roti Krumpul 3 rasa dengan harga terjangkau. Hubungi kami untuk informasi lebih lanjut</p>",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-secondary-outline\" href=\"https://api.whatsapp.com/send?phone=6282137407720\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Hubungi Kami</a>",
-          "_name": "msg-box4",
-          "_styles": {
-            ".lead P": {
-              "color": "#f1c050"
-            },
-            ".btn": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          },
-          "_anchor": "msg-box4-g"
         },
         {
           "_params": {
@@ -231,7 +187,7 @@
             "bgImage": "@PROJECT_PATH@/assets/images/background%201-2000x942.png",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f1c050",
+            "bgColor": "#fbf2be",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -250,7 +206,13 @@
           "_anchor": "content5-3",
           "_styles": {
             "P": {
-              "color": "#fbf2be"
+              "color": "#d9534f",
+              "text-align": "left"
+            },
+            ".mbr-section-title": {
+              "color": "#e24141",
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
             }
           }
         },
@@ -258,10 +220,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1920x1280.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#000000",
             "overlay": true,
             "overlayColor": "#3C3C3C",
