@@ -35,7 +35,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": "17",
             "paddingTop": 0,
