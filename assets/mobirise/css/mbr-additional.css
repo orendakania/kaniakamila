@@ -1,11 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 
+#msg-box4-d .lead P {
+  color: #000000;
+}
 #msg-box4-7 .lead P {
   color: #fff8e0;
 }
 #msg-box4-7 .btn {
   font-family: 'Oswald', sans-serif;
-}
-#msg-box4-d .lead P {
-  color: #000000;
 }
